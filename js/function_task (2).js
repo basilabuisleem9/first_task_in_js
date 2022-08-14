@@ -567,6 +567,33 @@ function scoreInUniversty(degree){
   } 
   scoreInUniversty(71);
 
+
+
+
+  let degree_1 = 90
+
+  switch (true){
+
+    case degree_1 >= 95 && degree_1 <= 100 :
+      console.log("A");
+      break;
+
+    case degree_1 >= 85 && degree_1 <= 94:
+      console.log("B");
+      break;
+    case degree_1 >= 70 && degree_1 <= 84:
+      console.log("C");
+     break;
+    case degree_1 >= 50 && degree_1 <= 69:
+      console.log("D");
+    break;
+    case degree_1 >= 0 && degree_1 <= 49:
+      console.log("f");
+    break;
+
+  }
+
+
 /*
 23
 Write a function called counter
@@ -623,3 +650,21 @@ Ex: resetCounter()
 Ex: counter()
 => 1
 */
+
+function resetCounter(A){
+ let counter=A;
+ counter=0;
+console.log(counter)
+
+ }
+resetCounter( 5)
+
+
+
+let myFriends = [ "Osama", "Ahmed", "Sayed", "Ali" , "basel"];
+for (let i = 0 ;i < 5; i++ ){
+  console.log(myFriends[i])
+}
+
+
+
